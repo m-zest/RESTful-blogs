@@ -1,0 +1,24 @@
+i.icon {
+    font-size: 2em;
+}
+
+.container.main {
+    margin-top: 7.0em;
+}
+
+#delete {
+    display: inline;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+    padding: 5px;
+    color: white;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #000000;
+}
