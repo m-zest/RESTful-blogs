@@ -7,8 +7,7 @@ const bodyParser = require('body-parser'),
 
 
 // APP CONFIG
-//mongoose.connect('mongodb://localhost/restful_blog_app', { useNewUrlParser: true ,useUnifiedTopology: true});
-mongoose.connect('mongodb+srv://blog:blog123@zcluster-zjjuo.mongodb.net/<dbname>?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb://localhost/restful_blog_app', { useNewUrlParser: true ,useUnifiedTopology: true});
 
 mongoose.set('useFindAndModify', false);
 app.set("view engine", "ejs");
